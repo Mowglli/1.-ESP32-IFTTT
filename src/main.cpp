@@ -8,7 +8,7 @@
 #include <HTTPClient.h>
 
 //DHT11 sensor
-#define DHTPIN 23                 // Digital pin forbundet til  DHT11 sensor 
+#define DHTPIN 23                 // Digital pin forbundet til  DHT11 sensor.. 
 #define DHTTYPE    DHT11          // I biblioteket DHT skal vi definere type
 DHT_Unified dht(DHTPIN, DHTTYPE);
 uint32_t delayMS;
