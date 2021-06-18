@@ -19,12 +19,12 @@ int soil_sensor, output_value;
 float output_value_pct;
 
 //Wifi info
-#define WIFI_NETWORK "Åhusene 11 - 4.3 - gæst"
-#define WIFI_PASSWORD "40147281"
+#define WIFI_NETWORK "SSID"
+#define WIFI_PASSWORD "PASSWORD"
 #define WIFI_TIMEOUT_MS 20000 //20 ms
 
 //IFFT setup
-String key = "cgCCkRGzGfCspgVFdYtWe7"; //nøgle
+String key = "key"; //nøgle
 String event_name= "soil_moisture_email";
 
 
